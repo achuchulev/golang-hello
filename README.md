@@ -31,12 +31,16 @@ vagrant ssh
 cd /vagrant
 ```
 
-Next, compile the *main.go* source file with command: 
-
-`go install main.go`
-
 Run program: 
 
-`$GOBIN/main`
+`go run main.go`
 
-The *main.go* program should produce a "*_Hello world_*" message, confirming a successful installation of Go.
+Build program into binary:
+
+`go build  main.go`
+
+Execute the built binary directly: 
+
+`./main`
+
+The program should produce a "*_Hello world_*" message, confirming a successful installation of Go.
