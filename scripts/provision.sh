@@ -14,4 +14,5 @@ mkdir /home/vagrant/gopath
 chmod -R 777 /home/vagrant/gopath
 echo 'export GOROOT="/usr/local/go"' >> /home/vagrant/.bash_profile
 echo 'export GOPATH="/home/vagrant/gopath"' >> /home/vagrant/.bash_profile
+echo 'export GOBIN="$HOME/vagrant/bin"' >> /home/vagrant/.bash_profile
 echo 'export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"' >> /home/vagrant/.bash_profile
