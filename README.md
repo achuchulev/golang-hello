@@ -36,4 +36,4 @@ Run program:
 
 `$GOBIN/main`
 
-The *main.go* program should produce a _Hello world_ message, confirming a successful installation of Go.
+The *main.go* program should produce a "*_Hello world_*" message, confirming a successful installation of Go.
