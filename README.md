@@ -14,9 +14,9 @@ cd vagrant-golang-c7box
 vagrant up
 ```
 
-## Configure golang environment
+## Configure Go environment
 
-Vagrant up will run scripts/provision.sh that:
+Vagrant up will run `scripts/provision.sh` that:
 
 * download Go
 * extract Go 
