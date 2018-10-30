@@ -24,8 +24,16 @@ Vagrant up will run `scripts/provision.sh` that:
 
 ## Run sample *"Hello worwd"* golang script
 
-```
-cd /vagrant
-go install main.go
-$GOBIN/main
-```
+Change directory: 
+
+`cd /vagrant`
+
+Next, compile the *main.go* source file with command: 
+
+`go install main.go`
+
+Run program: 
+
+`$GOBIN/main`
+
+The *main.go* program should produce a _Hello world_ message, confirming a successful installation of Go.
