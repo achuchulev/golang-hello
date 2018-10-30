@@ -22,7 +22,7 @@ Vagrant up will run `scripts/provision.sh` that:
 * extract Go 
 * set Go environment variables
 
-## Run sample *"Hello worwd"* golang script
+## Test Go
 
 Change directory: 
 
