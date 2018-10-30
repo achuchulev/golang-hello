@@ -6,7 +6,7 @@ yum install -y curl
 }
 
 echo "Downloading Go"
-curl --silent https://https://dl.google.com/go/go1.11.1.linux-amd64.tar.gz > /tmp/go.tar.gz
+curl --silent https://dl.google.com/go/go1.11.1.linux-amd64.tar.gz > /tmp/go.tar.gz
 echo "Extracting Go"
 tar -xvzf /tmp/go.tar.gz --directory /usr/local >/dev/null 2>&1
 echo "Setting Go environment variables"
