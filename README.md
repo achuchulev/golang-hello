@@ -24,9 +24,12 @@ Vagrant up will run `scripts/provision.sh` that:
 
 ## Test Go
 
-Change directory: 
+Connect to Vagrant box and change directory: 
 
-`cd /vagrant`
+```
+vagrant ssh
+cd /vagrant
+```
 
 Next, compile the *main.go* source file with command: 
 
