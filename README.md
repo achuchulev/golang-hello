@@ -1,4 +1,4 @@
-# A vagrant box with pre-installed go programing lang
+# A vagrant box with pre-installed Go programing lang
 
 ### Prerequisites
 
