@@ -8,8 +8,8 @@
 ## Run program: 
 
 ```
-git clone https://github.com/achuchulev/golang-hello.git
-cd golang-hello
+git clone https://github.com/achuchulev/hello-go.git
+cd hello-go
 go run main.go
 ```
 
