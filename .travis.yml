@@ -1,5 +1,4 @@
 ---
 language: go
-sudo: required
 script:
-- bash -x test/test.sh
+- go test test/hello_test.sh
