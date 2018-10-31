@@ -5,7 +5,7 @@
 * git
 * GoLang
 
-## Run program: 
+## Run program
 
 ```
 git clone https://github.com/achuchulev/hello-go.git
