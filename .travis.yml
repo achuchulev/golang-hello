@@ -1,5 +1,4 @@
 ---
 language: go
 script:
-- go run main.go
-- go test test/hello_test.go
+- go test
