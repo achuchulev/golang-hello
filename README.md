@@ -24,4 +24,4 @@ Execute the built binary directly:
 
 `./main`
 
-The program should produce a "*_Hello world_*" message
+The program should produce a "*_hello_*" message
