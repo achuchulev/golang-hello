@@ -9,9 +9,12 @@
 
 ```
 git clone https://github.com/achuchulev/hello-go.git
-cd hello-go
-go run main.go
+cd hello-go/
 ```
+
+Run program:
+
+`go run main.go`
 
 Build program into binary:
 
