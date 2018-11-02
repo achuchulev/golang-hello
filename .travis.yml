@@ -1,5 +1,14 @@
----
 language: go
 script:
 - go fmt
 - go test
+- go build main.go
+deploy:
+  provider: releases
+  api_key:
+    secure: DC2LoJJ/Emmg7t+S983d1v4gWBKvUO/vSBGhAQfDXAq8LMNHTz3FzUJTNPTyWQQUNPYpDMvueTi3fptzAD4ke2Pv/RlzP4feOQMOO7vZehNDLNxCnwGqWqzdjm0mwt02y0O7Okbg7zVAJdR5+M/t6HrrTHU3fJVp85xwDTXwzuRhHrDeBkQVCHTK6dyJZDCQ6MlPE5v4wDTRyp3QR7Titk7GoWF23wCDykBOjwu1Tn2WRWmRmh50H/DR87wa7aAmL2uAKyQvt9XgA3durHNQ+FyszSkjmd+I6GNKOWw8WYHGSY/HdGTFr/oGrBngbeE6eb3DSGi2vMombEwJDjKyjI9GLGo1I8skQSc8s1Hnw+2oZO9Z1p0axZJR/+wbPhKHMjDegge/l/kHfMVFo4ETDBOxzzMQLt0tz/KmoRjLZzYf4IukChRY/MV96rdyE4jvnLbJUusVIeCRSz1rCo/+vTg84FiHPDb4sCgkfhqLFTwKvonX7UgTht+ejhhEsMSeLdNu8FGy2QXXNqTp1ISQg/h1KcizadFdyLyLd6Ry4ZSGJu9JY/Q7sR3ikSoeOMoJWI4FnYmBakjBTNDZY0S0Q9STfCmjS15mxdNLTc4pj7DwZd2IBRJpy2IqsI/hiR3uBQYiU8K9zboUvqx5oB7/wbHxmh19DaBT6YNTulfJdiA=
+  file: main
+  skip_cleanup: true
+  on:
+    repo: achuchulev/hello-go
+    tags: true
