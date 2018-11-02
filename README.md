@@ -1,4 +1,4 @@
-# GoLang program that prints "hello"
+# GoLang program that prints "_hello_"
 
 ### Prerequisites
 
