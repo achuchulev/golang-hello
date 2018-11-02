@@ -25,3 +25,7 @@ Execute the built binary directly:
 `./main`
 
 The program should produce a "*_hello_*" message
+
+## Release versions
+
+Use Travis to release new app revision when tag is set
