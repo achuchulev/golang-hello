@@ -1,4 +1,4 @@
-# GoLang program that prints "_hello_"
+# GoLang program that prints "_hello_". A release artifacts are to be created by travis when tag is set
 
 ### Prerequisites
 
@@ -26,6 +26,9 @@ Execute the built binary directly:
 
 The program should produce a "*_hello_*" message
 
-## Release versions
+## Release new revision
 
-Use Travis to release new app revision when tag is set
+Travis will release new app revision when new tag is set.
+
+In order to create a tag go to Releases tab and add prefix of version with the letter `v.0.0.x`
+
