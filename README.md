@@ -1,4 +1,4 @@
-# GoLang program that prints "_hello_". A release artifacts are to be created by travis when tag is set
+# GoLang program that prints "_hello_". A release artifacts are to be created by travis when tag is set     [![Build Status](https://travis-ci.org/achuchulev/hello-go.svg?branch=master)](https://travis-ci.org/achuchulev/hello-go)
 
 ### Prerequisites
 
